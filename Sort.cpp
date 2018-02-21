@@ -124,6 +124,10 @@ void Sort::arrayInsertionSort()
 		while (temp < intArray[j] && j >= 0)
 		{
 			intArray[j + 1] = intArray[j];
+			if(j == 0)
+			{
+				break;
+			}
 			--j;
 		}
 		intArray[j + 1] = temp;
