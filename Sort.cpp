@@ -17,7 +17,7 @@ Sort::Sort(unsigned int size)
 
 Sort::~Sort()
 {
-	//delete this->intArray; //Deleted already?
+	delete this->intArray;
 	Node* temp;
 	while (this->head != nullptr)
 	{
