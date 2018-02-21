@@ -13,7 +13,7 @@ public:
 	unsigned DurationInMilliSeconds();
 
 private:
-	std::chrono::time_point<std::chrono::steady_clock> start;
-	std::chrono::time_point<std::chrono::steady_clock> end;
+	std::chrono::time_point<std::chrono::system_clock> start;
+	std::chrono::time_point<std::chrono::system_clock> end;
 };
 
