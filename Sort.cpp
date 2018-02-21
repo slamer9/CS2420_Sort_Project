@@ -121,7 +121,7 @@ void Sort::arrayInsertionSort()
 		unsigned int j = i-1;
 		temp = this->intArray[i];
 
-		while (temp < intArray[j] && j >= 0)
+		while (temp < intArray[j])
 		{
 			intArray[j + 1] = intArray[j];
 			if(j == 0)
