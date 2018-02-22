@@ -330,6 +330,7 @@ unsigned int Sort::partition(int data[], unsigned int lowIndex, unsigned int hig
 			temp = data[lowIndex];
 			data[lowIndex] = data[highIndex];
 			data[highIndex] = temp;
+			
 			++lowIndex;
 			--highIndex;
 		}
