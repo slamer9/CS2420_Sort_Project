@@ -219,10 +219,10 @@ void Sort::selectionSort()
 
 	/*int temp, min_index;	//Sorting it the wrong way I guess
 	unsigned int i, j;
-	for (i = 0; i < this->array_size; ++i)
+	for (i = 0; i < this->data_size; ++i)
 	{
 		min_index = i;
-		for (j = i + 1; j < this->array_size, ++j)
+		for (j = i + 1; j < this->data_size; ++j)
 		{
 			if (this->at(j) < this->at(min_index))
 			{
